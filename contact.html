@@ -14,74 +14,69 @@
 
 <body>
 
-    <div class="container-fluid p-0">
+    <div class="container-fluid p-0 p-md-20px ">
 
-        <nav class="row w-100 justify-content-center  justify-content-md-start navbar navi m-0 p-0 m-md-2">
+        <nav
+            class="row justify-content-center justify-content-xl-center w-sm-100 w-xs-100 w-lg-.80 w-lg-.75 w-md-.67 justify-content-md-start justify-content-lg-start navbar navi m-0 p-0 m-md-2">
+            <div class="col-md-1"></div>
 
-            <div class="col w-100 m-0 p-0">
-                <a id="banner" class=" col-lg-4 col-md-5 font-weight-bold" href="index.html">Emily Reynolds</a>
+            <div class="col col-12 d-md-inline-flex col-md-5 col-lg-3 col-xl-3 w-100 m-0 p-0  pl-lg-3 " id="banner">
+                <a id="banner" class="col-lg-3 col-md-12 font-weight-bold  justify-content-center"
+                    href="index.html">Emily Reynolds</a>
             </div>
-            <div class="col-lg-3 col-sm-0 col-md-1 p-md-90 col-0">
 
+            <div class="col-lg-0 col-xl-0"></div>
+
+            <div
+                class="col col-12 justify-content-sm-center justify-content-xm-center text-sm-center col-xl-5 col-lg-5 col-sm-12 col-md-6">
+                <!-- <div class=" justify-content-sm-center justify-content-lg-end justify-content-xl-end "> -->
+
+
+                <a class="col-1 navilink" href="index.html">About</a>
+
+                <a class="col-1 navilink" href="portfolio.html">Portfolio</a>
+
+                <a class="col-1 navilink" href="contact.html">Contact</a>
             </div>
-            <div class="col col-sm-12 justify-content-center no-gutters text-center">
-                <div class=" col-lg-1 col-md-6 col-sm-12 justify-content-sm-center ">
 
-
-                    <a class="col-4 navilink" href="index.html">About</a>
-
-                    <a class="col-4 navilink" href="portfolio.html">Portfolio</a>
-
-                    <a class="col-4 navilink" href="contact.html">Contact</a>
-                </div>
-            </div>
 
         </nav>
     </div>
-    <div class="container-fluid">
-        <div class="row abouts">
-            <div class="row">
+    <Main>
+        <div class="row justify-content-center contact">
+            <div class="col-10 d-inline-block justify-content-center ml-5">
+                <form>
+                    <div class="form-group">
+                        <label for="contactFormName">Name</label>
+                        <input type="email" class="form-control">
+                    </div>
+                    <div class="form-group">
+                        <label for="contactFormEmail">Email address</label>
+                        <input type="email" class="form-control" placeholder="name@example.com">
+                    </div>
 
-                <h2 class="col-12 col-lg-12 font-weight-bold">About Me</h2>
-            </div>
-            <div class="line col-12">
-            </div>
-            <div class="justify-content-center row">
-                <div class="col-lg-3 col-md-6 col-sm-6">
-                    <img src="assets/images/profile.jpeg" style="width: 100%;" alt="Emily Reynolds">
-                </div>
-                <div class="col-lg-9 col-md-9 col-sm-9">
-                    <p>
-                        Hi there! I am Emily Reynolds, a budding web developer and technology enthusiast. Born and
-                        raised in Omaha, NE, I am a midwestern girl at heart.
-                    </p>
-                    <p>
-                        I recieved a B.S. in Physics from Loyola University of New Orelans in 2015. After gaining a
-                        passion for development as a Technical Recruiter, I switched course and began a new career in
-                        web development. I specialize in HTML5, CSS, React, Node, Bootstrap and more. I enjoy the
-                        satisfaction of web creation and design.
-                    </p>
-                    <p>
-                        Looking for a new website? Or maybe you just want to spice it up! Either way, check out my
-                        Portfolio and see what I can do. If you like what you see, contact me so we can make all your
-                        web dreams come true!
-                    </p>
-
-                </div>
-
+                    <div class="form-group">
+                        <label for="exampleFormControlTextarea1">Example textarea</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                    </div>
+                    <div class="form-group">
+                    <a href="emailto:emily.reynolds504@gmail.com" class="btn btn-secondary btn-lg active" role="button" aria-pressed="true">Submit</a>
+                    </div>
+                </form>
             </div>
 
         </div>
-       
-            <footer class="container-fluid">
+    </Main>
+    <footer class="footer">
 
-                <div class=" w-100 h-90px justify-content-center">
-                    Copyright &copy;
+        <div class="container">
+            <span>Copyright &copy</span>
 
-                </div>
-            </footer>
 
-    </div>
+        </div>
+    </footer>
+
+
 
 
 
